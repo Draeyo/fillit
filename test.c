@@ -16,14 +16,14 @@ struct s_list{
 
 t_list  ft_carre(t_list new)
 {
-    new.x1 =
-    new.y1 =
-    new.x2 =
-    new.y2 =
-    new.x3 =
-    new.y3 =
-    new.x4 =
-    new.y4 =
+    new.x1 = 0;
+    new.y1 = 0;
+    new.x2 = 0;
+    new.y2 = 1;
+    new.x3 = 1;
+    new.y3 = 0;
+    new.x4 = 1;
+    new.y4 = 1;
     new.forme = "##/n##"
     new->next = NULL;
     new->prev = NULL;
